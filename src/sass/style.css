@@ -583,6 +583,15 @@
           align-items: center;
 }
 
+.overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0.56;
+  top: 0;
+}
+
 @media (max-width: 1200px) {
   .carousel .tns-item img {
     width: 75%;
