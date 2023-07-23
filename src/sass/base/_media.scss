@@ -20,6 +20,27 @@
       }
     }
   }
+  .footer {
+    &__info {
+      padding: 20px 8px 20px 8px;
+    }
+    &__addr {
+      margin-bottom: 23px;
+      font-size: 19px;
+    }
+    &__phone {
+      font-size: 15px;
+    }
+    &__social {
+      &-item {
+        width: 35px;
+        height: 35px;
+        img {
+          height: 20px;
+        }
+      }
+    }
+  }
 }
 
 @media (max-width: 991px) {
@@ -68,12 +89,22 @@
   }
   }
   .footer {
-  &__info {
-    width: 430px;
-    height: 240px;
+  &__addr {
+    font-size: 15px;
   }
   &__phone {
     margin-bottom: 23px;
+  }
+  &__info {
+    top: 72%
+  }
+  &__social-item {
+    width: 25px;
+    height: 25px;
+    margin: 0 10px;
+    img {
+      height: 15px;
+    }
   }
   }
 }
@@ -136,6 +167,13 @@
     margin: 0;
   }
   }
+  .consultation {
+    min-height: 550px;
+    padding: 50px 0;
+    &__descr {
+      font-size: 15px;
+    }
+  }
   .catalog {
   &__tabs {
     margin-top: 35px;
@@ -151,27 +189,6 @@
     }
   }
   }
-  .footer {
-  &__info {
-    width: 325px;
-    height: 205px;
-  }
-  &__addr {
-    margin-bottom: 25px;
-  }
-  &__social-item {
-    width: 40px;
-    height: 40px;
-    margin: 0 10px;
-    img {
-      height: 20px;
-    }
-  }
-  &__phone {
-    margin-bottom: 19px;
-  }
-  }
-
 }
 
 @media (max-width: 575px) {
@@ -197,7 +214,7 @@
     margin-top: 60px;
   }
   &__header {
-    font-size: 20px;
+    font-size: 23px;
   }
   &__subheader {
     font-size: 12px;
@@ -254,7 +271,7 @@
     }
   }
   .consultation {
-    min-height: 545px;
+    min-height: 460px;
     padding: 50px 0;
   &__descr {
     font-size: 15px;
@@ -298,6 +315,42 @@
       margin-left: 10px;
       margin-bottom: 10px;
     }
+    &_descr {
+      font-size: 14px;
+    }
   }
   }
+  .footer {
+  &__addr {
+    margin-bottom: 10px;
+    font-size: 13px;
+  }
+  &__phone {
+    font-size: 13px;
+  }
+  &__social {
+    &-item {
+      width: 20px;
+      height: 20px;
+      img {
+        height: 13px;
+      }
+    }
+  }
+  }
+  // #consultation {
+  //   width: 41%;
+  // }
+  // .feed {
+  //   &-form {
+  //     &_mt25 {
+  //       transform: translateX(-22px);
+  //     }
+  //   }
+  // }
+  // .button {
+  //   &_submit {
+  //     transform: translateX(42px);
+  //   }
+  // }
 }

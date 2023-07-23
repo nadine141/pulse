@@ -46,8 +46,8 @@
     }
   }
   &-item {
-    width: 303px;
-    min-height: 442px;
+    width: 260px;
+    min-height: 359px;
     border: 2px solid #E8E8E8;
     padding: 20px 20px 26px 20px;
     overflow: hidden;
@@ -108,7 +108,7 @@
     }
     &__wrapper {
       display: flex;
-      width: calc(200% + 40px);
+      width: calc(200% + 60px);
     }
     &__content {
       width: 50%;
