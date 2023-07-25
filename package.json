@@ -18,6 +18,7 @@
   "homepage": "https://github.com/nadine141/uber#readme",
   "devDependencies": {
     "browser-sync": "^2.26.7",
+    "es6-weak-map": "^2.0.3",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
     "gulp-clean-css": "^4.2.0",
@@ -26,6 +27,7 @@
     "sass": "^1.62.1"
   },
   "dependencies": {
-    "gulp-cli": "^2.3.0"
+    "gulp-cli": "^2.3.0",
+    "gulp-htmlmin": "^5.0.1"
   }
 }

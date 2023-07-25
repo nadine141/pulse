@@ -6,9 +6,10 @@
     top: 0;
     left: 50%;
     transform: translateX(-50%);
-
+    max-width: 460px;
+    max-height: 270px;
     background: $main-color;
-    padding: 50px 68px 60px 68px;
+    padding: 50px 53px 56px 54px;
   }
   &__addr {
     margin-bottom: 36px;
@@ -47,5 +48,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  iframe {
+    width: 100%;
+    height: 630px;
+    border: 0;
   }
 }

@@ -11,8 +11,8 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 300px;
-  min-height: 309px;
+  width: 380px;
+  min-height: 400px;
   background-color: #f2f2f2;
   padding: 38px 40px 40px 40px;
   &__close {
@@ -37,7 +37,16 @@
     text-align: center;
   }
   &_mini {
-    min-height: 50px;
+    min-height: 140px;
+  }
+  .error {
+    border: 1px solid red;
+  }
+  label.error {
+    border: none;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 14px;
   }
 }
 #consultation, #order, #thanks {
